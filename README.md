@@ -4,7 +4,7 @@ Upwork client created the plugin's idea, 'Develop an Auto Tree Chopper plugin fo
 
 Plugin is designed, to start the machine by placing one of three bits blocks on the ground (DIAMOND_BLOCK, GOLD_BLOCK, and EMERALD_BLOCK) and on top of its chest. The only requirement is that the player has no machines already running, otherwise plugin will cancel machine creation and give chest back to player.
 
-After placing chest, armor_stand spawns holding stone_axe and moves ONLY along X axe and recognizes if collides with OAK_LOG ---> represents a tree. Armor_stand isn't effected by gravity and it moves thru blocks with few exceptions:
+After placing chest, armor_stand spawns holding stone_axe and moves ONLY along X axe and recognizes if collides with OAK_LOG  representing a tree. Armor_stand isn't effected by gravity and it moves thru blocks with few exceptions:
 
 - Fern
 - Brown_mushroom
@@ -13,19 +13,27 @@ In case of colliding with these, armor_stand disappears, the machine is stopped 
 
 Water doesn't affect armor_stand and it's work.
 
+
 In case that armor_stand is standing on:
 
 ICE - plugin gives player SPEED effect.
+
 SPONGE - plugin gives player a SLOW effect.
 
+
 There are 3 Bit's blocks. (DIAMOND_BLOCK, EMERALD_ORE, GOLD_ORE)
+
 DIAMOND_BLOCK - Armor_stand will move infinitely until it collides with 2 of selected plants (Fern and Brown_mushroom) or chest gets full. 
+
 GOLD_BLOCK - Armor_stand will move 20 seconds on X axe or rather 20 blocks, as all variants of machine travel 1 block per second. After 20 seconds machine will stop with armor_stand dispawning.
+
 EMERALD_BLOCK - It is the same as DIAMOND_BLOCK with one huge tweak. For every OAK_LOG broken, it will multiply by 2. That means players will get x2 times the output with this variant.
+
 
 In case that chest gets full, player will be notified in chat, and machine will stop working.
 
 Time to complete the challenge: nearly 5 hours
+
 
 Expectations and challenges:
 
