@@ -1,0 +1,5 @@
+name: TreeChopper
+version: '${project.version}'
+main: com.x32pc.github.treechopper.TreeChopper
+api-version: '1.20'
+author: x32pc
